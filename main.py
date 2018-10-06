@@ -19,7 +19,7 @@ _handle = int(sys.argv[1])
 # Here we use a fixed set of properties simply for demonstrating purposes
 # In a "real life" plugin you will need to get info and links to video files/streams
 # from some web-site or online service.
-VIDEOS = {'Bernhard & Bianca 1': [{'name': 'Die M�usepolizei',
+VIDEOS = {'Bernhard & Bianca 1': [{'name': 'Die Mäusepolizei',
                        'thumb': 'https://raw.githubusercontent.com/EmuZONE/YouTube/master/Images/cc001.jpg',
                        'video': 'https://archive.org/download/RobinHood1973/BernhardBianca-DieMusepolizei.mp4',
                        'genre': 'Cartoon'}
@@ -66,17 +66,17 @@ VIDEOS = {'Bernhard & Bianca 1': [{'name': 'Die M�usepolizei',
                       'genre': 'Classic Cartoon'}
                        
                       ],
-            'König der Löwen': [{'name': 'König der Löwen 1',
+            'KÃ¶nig der LÃ¶wen': [{'name': 'KÃ¶nig der LÃ¶wen 1',
                       'thumb': 'https://raw.githubusercontent.com/EmuZONE/YouTube/master/Images/cc003.jpg',
                       'video': 'https://archive.org/download/RobinHood1973/DerKnigDerLwen.mp4',
                       'genre': 'Cars'}
                       ],
-                      'König der Löwen 2': [{'name': 'König der Löwen 2',
+                      'KÃ¶nig der LÃ¶wen 2': [{'name': 'KÃ¶nig der LÃ¶wen 2',
                       'thumb': 'https://raw.githubusercontent.com/EmuZONE/YouTube/master/Images/cc004.jpg',
                       'video': 'https://archive.org/download/RobinHood1973/KnigDerLwen2-SimbasKnigreich.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
-                      'König der Löwen 3': [{'name': 'König der Löwen 2',
+                      'KÃ¶nig der LÃ¶wen 3': [{'name': 'KÃ¶nig der LÃ¶wen 2',
                       'thumb': 'https://raw.githubusercontent.com/EmuZONE/YouTube/master/Images/cc005.jpg',
                       'video': 'https://archive.org/download/RobinHood1973/DerKnigDerLwen3HakunaMatata2004.mp4',
                       'genre': 'Classic Cartoon'}
@@ -161,7 +161,7 @@ VIDEOS = {'Bernhard & Bianca 1': [{'name': 'Die M�usepolizei',
                       'video': 'https://archive.org/download/RobinHood1973/Pocahontas.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
-                      'Der Gl�ckner von Notre Dame': [{'name': 'Der Gl�ckner von Notre Dame',
+                      'Der GlÃ¶ckner von Notre Dame': [{'name': 'Der GlÃ¶ckner von Notre Dame',
                       'thumb': 'https://media1.jpc.de/image/w600/front/0/4051238042351.jpg',
                       'video': 'https://archive.org/download/RobinHood1973/Pocahontas.mp4',
                       'genre': 'Classic Cartoon'}
@@ -181,7 +181,7 @@ VIDEOS = {'Bernhard & Bianca 1': [{'name': 'Die M�usepolizei',
                       'video': 'https://archive.org/download/AstrixChezLesBretons/Ast%C3%A9rix%20chez%20les%20Bretons.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
-                      'Asterix Sieg über Cäsar': [{'name': 'Asterix Sieg über Cäsar',
+                      'Asterix Sieg Ã¼ber CÃ¤sar': [{'name': 'Asterix Sieg Ã¼ber CÃ¤sar',
                       'thumb': 'https://media1.jpc.de/image/w600/front/0/4006680072579.jpg',
                       'video': 'https://archive.org/download/AstrixEtLaSurpriseDeCsar/Ast%C3%A9rix%20et%20la%20surprise%20de%20C%C3%A9sar.mp4',
                       'genre': 'Classic Cartoon'}
