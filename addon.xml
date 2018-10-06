@@ -10,8 +10,8 @@ provider-name="[COLOR lime]YggDraz1l[/COLOR]">
   <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en">Classic Cartoons and Movies</summary>
-  <description lang="en_GB">Classic Cartoons and Movies.</description>
+  <summary lang="de">[COLOR white]Classic Cartoon Movies[/COLOR]</summary>
+  <description lang="de_DE">Wer mÃ¶chte nicht noch einmal Kind sein? Da dieser Wunsch leider nicht erfÃ¼llt werden kann, lasst uns die Abenteuer unserer Helden aus Kindertagen nochmal zusammen erleben.</description>
   <disclaimer lang="en_GB"></disclaimer>
   <assets>
     <icon>icon.png</icon>
