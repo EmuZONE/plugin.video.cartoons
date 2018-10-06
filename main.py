@@ -19,7 +19,7 @@ _handle = int(sys.argv[1])
 # Here we use a fixed set of properties simply for demonstrating purposes
 # In a "real life" plugin you will need to get info and links to video files/streams
 # from some web-site or online service.
-VIDEOS = {'Bernhard & Bianca 1': [{'name': 'Die Mäusepolizei',
+VIDEOS = {'Bernhard & Bianca 1': [{'name': 'Die M�usepolizei',
                        'thumb': 'https://raw.githubusercontent.com/EmuZONE/YouTube/master/Images/cc001.jpg',
                        'video': 'https://archive.org/download/RobinHood1973/BernhardBianca-DieMusepolizei.mp4',
                        'genre': 'Cartoon'}
@@ -40,14 +40,19 @@ VIDEOS = {'Bernhard & Bianca 1': [{'name': 'Die Mäusepolizei',
                       'video': 'https://archive.org/download/AstrixEtLeCoupDuMenhir/Ast%C3%A9rix%20le%20Gaulois.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
+                      'Die Schöne und das Biest': [{'name': 'Die Schöne und das Biest',
+                      'thumb': 'https://raw.githubusercontent.com/EmuZONE/YouTube/master/Images/_beast.jpg',
+                      'video': 'https://archive.org/download/AstrixEtLeCoupDuMenhir/Die%20Sch%C3%B6ne%20und%20das%20Biest.mp4',
+                      'genre': 'Classic Cartoon'}
+                      ],
             'Asterix in Amerika': [{'name': 'Asterix in Amerika',
                       'thumb': 'https://is2-ssl.mzstatic.com/image/thumb/Video4/v4/1c/a6/7a/1ca67a82-48c8-806e-216c-f9b9ca2254eb/ticket.mnbhykqz.jpg/268x0w.jpg',
-                      'video': 'https://archive.org/download/RobinHood1973/BernhardBianca.Im.KanguruhLand.mp4',
+                      'video': 'https://archive.org/download/AstrixEtLeCoupDuMenhir/Asterix%20in%20Amerika.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
             'A Charly Brown Valentine': [{'name': 'A Charly Brown Valentine',
                       'thumb': 'https://raw.githubusercontent.com/EmuZONE/YouTube/master/Images/GUEST_06b38d3f-091a-4e91-b9d9-bc5038d3c338.jpg',
-                      'video': 'https://archive.org/download/RobinHood1973/BernhardBianca.Im.KanguruhLand.mp4',
+                      'video': 'https://archive.org/download/AstrixEtLeCoupDuMenhir/A%20Charlie%20Brown%20Valentine.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
             'Bambi': [{'name': 'Bambi',
@@ -66,17 +71,17 @@ VIDEOS = {'Bernhard & Bianca 1': [{'name': 'Die Mäusepolizei',
                       'genre': 'Classic Cartoon'}
                        
                       ],
-            'KÃ¶nig der LÃ¶wen': [{'name': 'KÃ¶nig der LÃ¶wen 1',
+            'König der Löwen': [{'name': 'König der Löwen 1',
                       'thumb': 'https://raw.githubusercontent.com/EmuZONE/YouTube/master/Images/cc003.jpg',
                       'video': 'https://archive.org/download/RobinHood1973/DerKnigDerLwen.mp4',
                       'genre': 'Cars'}
                       ],
-                      'KÃ¶nig der LÃ¶wen 2': [{'name': 'KÃ¶nig der LÃ¶wen 2',
+                      'König der Löwen 2': [{'name': 'König der Löwen 2',
                       'thumb': 'https://raw.githubusercontent.com/EmuZONE/YouTube/master/Images/cc004.jpg',
                       'video': 'https://archive.org/download/RobinHood1973/KnigDerLwen2-SimbasKnigreich.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
-                      'KÃ¶nig der LÃ¶wen 3': [{'name': 'KÃ¶nig der LÃ¶wen 2',
+                      'König der Löwen 3': [{'name': 'König der Löwen 2',
                       'thumb': 'https://raw.githubusercontent.com/EmuZONE/YouTube/master/Images/cc005.jpg',
                       'video': 'https://archive.org/download/RobinHood1973/DerKnigDerLwen3HakunaMatata2004.mp4',
                       'genre': 'Classic Cartoon'}
@@ -123,7 +128,7 @@ VIDEOS = {'Bernhard & Bianca 1': [{'name': 'Die Mäusepolizei',
                       ],
                       'Anastasia': [{'name': 'Anastasia',
                       'thumb': 'https://raw.githubusercontent.com/EmuZONE/YouTube/master/Images/_anastasia.jpg',
-                      'video': 'https://archive.org/download/RobinHood1973/Pocahontas.mp4',
+                      'video': 'https://archive.org/download/AstrixEtLeCoupDuMenhir/Anastasia.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
                       'Heavy Metal FAKK2': [{'name': 'Heavy Metal FAKK2',
@@ -133,17 +138,17 @@ VIDEOS = {'Bernhard & Bianca 1': [{'name': 'Die Mäusepolizei',
                       ],
                       'Aladdin': [{'name': 'Aladdin',
                       'thumb': 'https://raw.githubusercontent.com/EmuZONE/YouTube/master/Images/_aladdin.jpg',
-                      'video': 'https://archive.org/download/RobinHood1973/Pocahontas.mp4',
+                      'video': 'https://archive.org/download/AstrixEtLeCoupDuMenhir/Disneys%20Aladdin.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
                       '101 Dalmatiner': [{'name': '101 Dalmatiner',
                       'thumb': 'https://raw.githubusercontent.com/EmuZONE/YouTube/master/Images/_101.jpg',
-                      'video': 'https://archive.org/download/RobinHood1973/Pocahontas.mp4',
+                      'video': 'https://archive.org/download/AstrixEtLeCoupDuMenhir/101%20Dalmatiner.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
                       'South Park - Der Film': [{'name': 'South Park - Der Film',
                       'thumb': 'https://images-na.ssl-images-amazon.com/images/I/51AB65SS8HL._SY445_.jpg',
-                      'video': 'https://archive.org/download/RobinHood1973/Pocahontas.mp4',
+                      'video': 'https://archive.org/download/AstrixEtLeCoupDuMenhir/South%20Park%20-%20Der%20Film.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
                       'Asterix & Kleopatra': [{'name': 'Asterix & Kleopatra',
@@ -153,22 +158,22 @@ VIDEOS = {'Bernhard & Bianca 1': [{'name': 'Die Mäusepolizei',
                       ],
                       'Oliver & Company': [{'name': 'Oliver & Company',
                       'thumb': 'https://raw.githubusercontent.com/EmuZONE/YouTube/master/Images/91iIlSEHRKL._SL1500_.jpg',
-                      'video': 'https://archive.org/download/RobinHood1973/Pocahontas.mp4',
+                      'video': 'https://archive.org/download/AstrixEtLeCoupDuMenhir/Oliver%20%26%20Company.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
                       'Cinderella 2': [{'name': 'Cinderella 2',
                       'thumb': 'https://images-na.ssl-images-amazon.com/images/I/51GWG4HBSWL._SY445_.jpg',
-                      'video': 'https://archive.org/download/RobinHood1973/Pocahontas.mp4',
+                      'video': 'https://archive.org/download/AstrixEtLeCoupDuMenhir/Cinderella%202%20-%20Tr%C3%A4ume%20werden%20wahr.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
-                      'Der GlÃ¶ckner von Notre Dame': [{'name': 'Der GlÃ¶ckner von Notre Dame',
+                      'Der Gl�ckner von Notre Dame': [{'name': 'Der Gl�ckner von Notre Dame',
                       'thumb': 'https://media1.jpc.de/image/w600/front/0/4051238042351.jpg',
-                      'video': 'https://archive.org/download/RobinHood1973/Pocahontas.mp4',
+                      'video': 'https://archive.org/download/AstrixEtLeCoupDuMenhir/Der%20Gl%C3%B6ckner%20von%20Notre%20Dame.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
                       'Simpsons - Der Film': [{'name': 'Simpsons - Der Film',
                       'thumb': 'https://images-na.ssl-images-amazon.com/images/I/71SdNCz2WpL._SY445_.jpg',
-                      'video': 'https://archive.org/download/RobinHood1973/Pocahontas.mp4',
+                      'video': 'https://archive.org/download/AstrixEtLeCoupDuMenhir/Die%20Simpsons%20-%20Der%20Film.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
                       'Arielle die Meerjungfrau': [{'name': 'Arielle die Meerjungfrau',
@@ -181,7 +186,7 @@ VIDEOS = {'Bernhard & Bianca 1': [{'name': 'Die Mäusepolizei',
                       'video': 'https://archive.org/download/AstrixChezLesBretons/Ast%C3%A9rix%20chez%20les%20Bretons.mp4',
                       'genre': 'Classic Cartoon'}
                       ],
-                      'Asterix Sieg Ã¼ber CÃ¤sar': [{'name': 'Asterix Sieg Ã¼ber CÃ¤sar',
+                      'Asterix Sieg über Cäsar': [{'name': 'Asterix Sieg über Cäsar',
                       'thumb': 'https://media1.jpc.de/image/w600/front/0/4006680072579.jpg',
                       'video': 'https://archive.org/download/AstrixEtLaSurpriseDeCsar/Ast%C3%A9rix%20et%20la%20surprise%20de%20C%C3%A9sar.mp4',
                       'genre': 'Classic Cartoon'}
